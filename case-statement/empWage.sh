@@ -20,3 +20,4 @@ case $empCheck in
 	;;
 esac
 wage=$(($EMP_RATE_PER_HR*$empHrs))
+echo Employee salary :: $wage
